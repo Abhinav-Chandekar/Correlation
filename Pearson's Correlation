@@ -1,0 +1,15 @@
+# Input Data sets 
+col1 = c(1,2,3,4)
+col2 = c(1,4,3,5)
+cor(col1,col2)
+# [1] 0.8315218
+cor.test(col1,col2) 
+# Pearson's product-moment correlation   
+# data:  col1 and col2   
+# t = 2.117, df = 2, p-value = 0.1685   
+# alternative hypothesis: true correlation is not equal to 0   
+# 95 percent confidence interval:   
+#  -0.6451325  0.9963561   
+# sample estimates:   
+#       cor    
+# 0.8315218   
